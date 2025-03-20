@@ -13,14 +13,14 @@ spec:
   - host: chat-app.16.16.149.60.nip.io
     http:
       paths:
-      - path: /api/(.*)
+      - path: /api/?(.*)
         pathType: ImplementationSpecific
         backend:
           service:
             name: backend
             port:
               number: 5001
-      - path: /(.*)
+      - path: /?(.*)
         pathType: ImplementationSpecific
         backend:
           service:
