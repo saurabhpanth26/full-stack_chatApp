@@ -34,4 +34,4 @@ EXPOSE 5001
 USER appuser
 
 # Start the server
-CMD ["npm", "start"]
+CMD ["node", "--experimental-modules", "src/index.js"]
