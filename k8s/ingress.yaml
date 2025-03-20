@@ -9,7 +9,8 @@ metadata:
 spec:
   ingressClassName: nginx
   rules:
-  - http:
+  - host: chat-app.16.16.149.60.nip.io
+    http:
       paths:
       - path: /
         pathType: Prefix
