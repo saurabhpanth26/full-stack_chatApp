@@ -29,8 +29,8 @@ spec:
         - name: JWT_SECRET
           valueFrom:
             secretKeyRef:
-              name: backend-secrets
-              key: jwt-secret
+              name: jwt-secret   
+              key: jwt         
         resources:
           limits:
             memory: "512Mi"
