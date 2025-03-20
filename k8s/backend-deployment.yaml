@@ -31,6 +31,8 @@ spec:
               key: jwt
         - name: NODE_ENV
           value: "production"
+        - name: CORS_ORIGIN
+          value: "http://chat-app.16.16.149.60.nip.io"
         resources:
           limits:
             memory: "512Mi"
