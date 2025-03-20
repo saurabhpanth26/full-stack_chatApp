@@ -4,9 +4,9 @@ metadata:
   name: backend
   namespace: chat-app
 spec:
-  type: LoadBalancer
+  selector:
+    app: backend
   ports:
   - port: 5001
     targetPort: 5001
-  selector:
-    app: backend
+  type: ClusterIP
