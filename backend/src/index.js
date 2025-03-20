@@ -20,7 +20,9 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(
   cors({
-    origin: "http://localhost:5173",
+    origin: process.env.NODE_ENV === "production" 
+      ? ["http://frontend", "http://frontend:80"] 
+      : "http://localhost:5173",
     credentials: true,
   })
 );
