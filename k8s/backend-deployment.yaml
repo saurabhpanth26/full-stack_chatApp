@@ -24,6 +24,11 @@ spec:
           value: "mongodb://mongoadmin:secret@mongodb:27017/chatApp?authSource=admin"
         - name: PORT
           value: "5001"
+        - name: JWT_SECRET
+          valueFrom:
+            secretKeyRef:
+              name: jwt-secret
+              key: jwt
         - name: NODE_ENV
           value: "production"
         - name: JWT_SECRET
