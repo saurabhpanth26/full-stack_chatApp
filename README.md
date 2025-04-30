@@ -1,11 +1,3 @@
-# Full Stack Chatapp
-
-[![GitHub Profile](https://img.shields.io/badge/GitHub-iemafzalhassan-purple?logo=github&style=flat)](https://github.com/iemafzalhassan)
-![Docker Image](https://img.shields.io/github/forks/iemafzalhassan/full-stack_chatApp)
-[![Stars](https://img.shields.io/github/stars/iemafzalhassan/full-stack_chatApp)](https://github.com/iemafzalhassan/full-stack_chatApp)
-![GitHub last commit](https://img.shields.io/github/last-commit/iemafzalhassan/full-stack_chatApp?color=green)
-
-
 ## 📝 Introduction:
 
 This project aims to provide a real-time chat experience that's both scalable and secure. With a focus on modern technologies, we're building an application that's easy to use and maintain.
@@ -13,20 +5,19 @@ This project aims to provide a real-time chat experience that's both scalable an
 
 ## Detailed Workflow Description:
 
-<div align="center">
-  <img src="https://github.com/user-attachments/assets/f845a188-8e70-42f7-8577-30af38e83053" alt="workflow"/>
-</div>
+
+![image](https://github.com/user-attachments/assets/f845a188-8e70-42f7-8577-30af38e83053)
 
 
-- **User Interaction:**
-   - Users interact with the frontend application running in their browser. This includes actions like logging in, sending messages, and navigating through the chat interface.Frontend (React App):The frontend is responsible for rendering the user interface and handling user inputs.It communicates with the backend via HTTP requests (for RESTful APIs) and WebSocket connections (for real-time interactions).
+  - **User Interaction:**
+    - Users interact with the frontend application running in their browser. This includes actions like logging in, sending messages, and navigating through the chat interface.Frontend (React App):The frontend is responsible for rendering the user interface and handling user inputs.It communicates with the backend via HTTP requests (for RESTful APIs) and WebSocket connections (for real-time interactions).
 
-- **Backend (Node.js/Express + Socket.io):**
-   - The backend handles all the server-side logic.It processes API requests from the frontend to perform actions such as user authentication, message retrieval, and message storage.Socket.io is used to manage real-time bi-directional communication between the frontend and the backend. This allows for instant messaging features, such as showing when users are typing or when new messages are sent.
+    - **Backend (Node.js/Express + Socket.io):**
+       - The backend handles all the server-side logic.It processes API requests from the frontend to perform actions such as user authentication, message retrieval, and message storage.Socket.io is used to manage real-time bi-directional communication between the frontend and the backend. This allows for instant messaging features, such as showing when users are typing or when new messages are sent.
 
 
-- **MongoDB (Database):**
-   - MongoDB stores all persistent data for the application, including user profiles, chat messages, and any other relevant data.The backend interacts with MongoDB to retrieve, add, update, or delete data based on the requests it receives from the frontend.
+    - **MongoDB (Database):**
+       - MongoDB stores all persistent data for the application, including user profiles, chat messages, and any other relevant data.The backend interacts with MongoDB to retrieve, add, update, or delete data based on the requests it receives from the frontend.
 
 
 
@@ -207,9 +198,9 @@ We invite you to join our community of developers and contributors. Let's work t
 
 This project is evolving, and here are a few exciting things on the horizon:
 
-* [x] **CI/CD Pipelines:** Implement Continuous Integration and Continuous Deployment pipelines to automate testing and deployment.
-* [x] **Kubernetes (K8s):** Add Kubernetes manifests for container orchestration to deploy the app on cloud platforms like AWS, GCP, or Azure.
-* [x] **Feature Expansion:** Add more features like group chats, media sharing, and user status updates.
+* [ ] **CI/CD Pipelines:** Implement Continuous Integration and Continuous Deployment pipelines to automate testing and deployment.
+* [ ] **Kubernetes (K8s):** Add Kubernetes manifests for container orchestration to deploy the app on cloud platforms like AWS, GCP, or Azure.
+* [ ] **Feature Expansion:** Add more features like group chats, media sharing, and user status updates.
 * **Stay tuned for updates as we continue to improve and expand this project!**
 
 ---
